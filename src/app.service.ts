@@ -3,6 +3,6 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
-    return 'Hello finally done ci cd!';
+    return 'Updated and installign nvm and pm2 everytime ci cd!';
   }
 }
